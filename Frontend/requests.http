@@ -1,0 +1,25 @@
+### Add a new student
+POST http://localhost:8070/student/add
+Content-Type: application/json
+
+{
+  "name": "mann ",
+  "nim": 45,
+  "gender": "Female"
+}
+
+### Get a student by ID (Replace `:id` with actual ID)
+GET http://localhost:8070/student/get/:id
+
+### Update a student (Replace `:id` with actual ID)
+PUT http://localhost:8070/student/update/:id
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "nim": 654321,
+  "gender": "Female"
+}
+
+### Delete a student (Replace `:id` with actual ID)
+DELETE http://localhost:8070/student/delete/:id

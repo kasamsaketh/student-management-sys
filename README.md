@@ -24,8 +24,3 @@ Follow these steps to set up the project locally.
 
 - Node.js and npm/yarn installed
 - MongoDB running locally or use a cloud service like MongoDB Atlas
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/sathvikakasam3/student-management-system.git
